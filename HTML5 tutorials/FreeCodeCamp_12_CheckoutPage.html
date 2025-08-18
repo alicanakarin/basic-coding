@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    
+    <section>
+      <h2>Your Cart</h2>
+      <img src='https://cdn.freecodecamp.org/curriculum/labs/spoon.jpg' alt='spoon'>Spoon</img>
+    </section>
+    
+  
+    <section>
+      <h2>Payment Information</h2>
+      <form>
+        <div>
+          <input type='text' required='aria-required='true'' placeholder='Card Name' id='card-name' name='card-name'>
+          <label for='card-name'>Card Name</label>
+          </input>
+        </div>
+        <div>
+          <input type='number' required='aria-required='true'' placeholder='Card Number' id='card-number' name='card-number'>
+          <label for='card-number'>Card Number</label>
+          </input>
+        </div>
+        <div>
+          <input type='number' type='number' required aria-required='true' id='expiry-date' name='expiry-date' placeholder='MM/YY'>
+            <label for='expiry-date'>Expiry Date</label>
+        </input>
+      </div> 
+      <div>
+        <input type='number' id='cvv' name='cvv' required aria-required='true' placeholder='CVV'>
+          <label for='cvv'>CVV</label>
+        </input>
+      </div>
+      <div>
+        <button id='place-order' name='place-order' type='button'>Place Order</button>
+      </div>    
+  </form>
+    </section>
+</body>
+
+</html>
