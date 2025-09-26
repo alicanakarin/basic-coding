@@ -1,0 +1,40 @@
+# Node, npm, and general
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Logs
+*.log
+
+# Build output
+/dist/
+/build/
+
+# Environment files
+.env
+.env.*
+
+# Misc
+*.bak
+*.tmp
+
+# Images cache
+*.cache
+
+# Ignore system files
+Desktop.ini
+
+# Ignore by project structure
+# (No backend or build output folders found, so only general ignores)
+
