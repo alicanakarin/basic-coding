@@ -23,7 +23,7 @@ if (selectedFuel) {
   const fuelLiters = Number(prompt("Yakıt litresini giriniz"));
   const balance = Number(prompt("Bakiyenizi giriniz"));
 
-  const totalPrice = selectedFuel.fiyat * fuelLiters;
+  const totalPrice = selectedFuel.fiyat *  ers;
 
   if (totalPrice <= balance) {
     const remainingBalance = balance - totalPrice;
